@@ -37,7 +37,7 @@ switch(action){
 
 
 function catchTweets () {
-  var client = new Twitter (twitKeys.twitterKeys);
+  var client = new Twitter (twitKeys.twitKeys);
 
   client.get('statuses/user_timeline', {screen_name: 'wolfgang_hall'}, function (error, data, response){
     for (var i = 0; i < data.length; i++) {
