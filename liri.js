@@ -33,7 +33,32 @@ switch(action){
   }  
   break;
 
+  case 'do-what-it-says':
+  dowhatitsays();
+  break;
 }
+
+
+function dowhatitsays() {
+  fs.readFile("random.txt", "utf8", function(error,data) {
+
+    var dataArr = data.split(',');
+
+    console.log(dataArr);
+
+     var dwisAction = dataArr[0];
+     var dwisVal  = dataArr[1];
+
+    if (dwisAction === 'spotify-this-song') {
+      catchSpotify (dwisVal);
+    } else if (dwisAction === 'movie-this') {
+      catchOmdb (dwisVal)
+    } else if (dwisAction === 'my-tweets') {
+      catchTweets();
+    }
+
+  }); 
+};
 
 
 function catchTweets () {
