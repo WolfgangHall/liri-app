@@ -57,6 +57,7 @@ function dowhatitsays() {
       catchTweets();
     }
 
+
   }); 
 };
 
@@ -110,7 +111,7 @@ function catchSpotify() {
 
 
 function catchOmdb (value) {
-  var movieUrl = 'http://www.omdbapi.com/?t='+ value +'&y=&plot=short&r=json&tomatoes=true';
+  var movieUrl = 'http://www.omdbapi.com/?t='+ value.replace(/ /g, '+') +'&y=&plot=short&r=json&tomatoes=true';
   request(movieUrl, function (error, response, body) {
 
     if (!error && response.statusCode == 200) {

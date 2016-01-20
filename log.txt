@@ -128,3 +128,30 @@ Song Name: Something Undefined
 
 
 
+Title: Men in Black
+Year: 1997
+IMDB Rating: 7.3
+Country: USA
+Language: English, Spanish
+Plot: A police officer joins a secret organization that polices and monitors extra terrestrial interactions on planet earth.
+Actors: Tommy Lee Jones, Will Smith, Linda Fiorentino, Vincent D'Onofrio
+Tomato Rating: 7.4
+Tomato URL: http://www.rottentomatoes.com/m/men_in_black/
+
+
+Title: The Avengers
+Year: 2012
+IMDB Rating: 8.1
+Country: USA
+Language: English, Russian
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+Tomato Rating: 8.0
+Tomato URL: http://www.rottentomatoes.com/m/marvels_the_avengers/
+
+
+Artist: Fleetwood Mac
+Album Name: Rumours
+Song Name: Go Your Own Way
+
+
